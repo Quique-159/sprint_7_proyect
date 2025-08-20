@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 car_data = pd.read_csv(
-    'C:/Users/quiqu/Desktop/Data_Analyst/Proyecto_sprint7/sprint_7_proyect/vehicles_us.csv')  # cargar datos
+    'https://github.com/Quique-159/sprint_7_proyect/blob/main/vehicles_us.csv')  # cargar datos
 
 st.header('Análisis de modelos de vehículos desde 1908 hasta 2019')
 
